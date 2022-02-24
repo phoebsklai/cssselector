@@ -1,0 +1,68 @@
+body{
+  background-color: AntiqueWhite;
+}
+
+div>h1{
+  background-color: red;
+}
+.title, .titleBar, .thumbnail {
+  border: 1vmin solid red;
+  font-family: impact;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+}
+
+.one, .titleBar, .thumbnail {
+  border: 1vmax solid white;
+  width:50%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.one img{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+.two, .titleBar, .thumbnail {
+  border: 1vmax solid blue;
+  width:50%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.two img{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+.three, .titleBar, .thumbnail {
+  border: 1vmax solid black;
+  width:50%;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.three img{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+
+.one + .two +.three{
+  margin-top: 1vmin;
+}
+
+
+*{
+  font-family: impact;
+  text-align: center;
+
+}
